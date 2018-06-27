@@ -1,0 +1,146 @@
+/*Theme Name: Awesometheme*/
+/*Theme URI: http://Awesometheme.com/Awesometheme*/
+/*Author: Dila Karatas*/
+/*Author URI: http://Awesometheme.com*/
+/*Discription: This is an awesome theme*/
+/*Version: 0.1 alpha*/
+/*License URI: http://www.gnu.org/license/gpl-2.0.html*/
+/*Tags: black, mountain, white, */
+
+body{
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 980px;
+    background-image: url("afbeeldingen/mountainnnn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header{
+    max-width: 980px;
+    display: flex;
+    height: 10vh;
+    width:100vw;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+    display: flex;
+    width:100%;
+    align-items: center;
+
+}
+
+
+ul{
+    margin: 0 auto;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+/*::selection {*/
+/**/
+/*}*/
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
+    width:100%;
+    display: flex;
+    max-width: 980px;
+    height: 100vh;
+}
+
+
+
+.container main {
+    text-align: center;
+    width:80%;
+}
+
+.container aside{
+    text-align: center;
+    width:20%;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+/*NU VOOR DE BLOGGG*/
+
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+.inhoud{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    display: flex;
+    max-width: 980px;
+    height: 70vh;
+    background-color: coral;
+
+}
+
+.inhoud2{
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    max-width: 980px;
+    height: 70vh;
+    background-color: #7777cc;
+
+}
+
+
+
+.inh{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding:10px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+a{
+    color: white;
+    list-style-type: none;
+}

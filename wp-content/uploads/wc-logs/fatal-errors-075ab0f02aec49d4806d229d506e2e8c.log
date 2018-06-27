@@ -1,0 +1,9 @@
+2018-06-08T10:44:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_head() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/Awesometheme/header.php:1
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/themes/Awesometheme/index.php(1): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown
+
